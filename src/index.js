@@ -1,4 +1,4 @@
-function zeros(str) {
+module.exports = function zeros(str) {
   	str = str.replace(/\s+/g, '');
 	let list = str.split('*');
 	let twos = 0;
